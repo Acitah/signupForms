@@ -13,27 +13,30 @@
 
         <div class="info">
 
-            <input type="text" placeholder="UserNAme"  required>
+            <input id="name" type="text" placeholder="UserName"  required>
             <label for="">User Name</label>
         </div>
 
         <div class="info">
-            <input type="text" placeholder="Eamil" required>
+            <input id="email" type="text" placeholder="Eamil" required>
             <label for="">Email</label>
         </div>
 
         <div class="info">
-            <input type="password" placeholder="Enter Password" required>
+            <input id="password" type="password" placeholder="Enter Password" required>
             <label for="">Enter your Password</label>
         </div>
         
         <div class="info">
-            <input type="password" required placeholder="Password">
+            <input id="confirmPassword" type="password" required placeholder="Password">
         <label for="">Confirm Password</label>
         </div>
         
 
-        <button type="button">Login</button>
+        <button type="button" onclick="signup()">Login</button>
     </form>
+    <p id="message"></p>
+
+    <script src="signup.js"></script>
 </body>
 </html>
